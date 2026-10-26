@@ -4,7 +4,7 @@ Experimental remote ESPN Fantasy MCP + safety-gated lineup assistant. Adapted fr
 
 ## Current status
 
-Source uploaded; **not deployed or authenticated**. No ESPN account changes have been made. ESPN's undocumented write endpoints may change and might violate ESPN terms.
+Source uploaded; **not deployed or authenticated**. League Loom's sealed ESPN session is not exportable into GitHub through the connector. The GitHub connector cannot configure Actions secrets. The workflow on this feature branch will NOT run on a schedule until it lives on the repository's default branch. No ESPN account changes have been made. ESPN's undocumented write endpoints may change and might violate ESPN terms.
 
 ## Safety
 
@@ -26,7 +26,7 @@ npm run agent:dry
 npm run start:http
 ```
 
-Set `ESPN_LEAGUE_ID=1318109236`, `ESPN_TEAM_ID=6`, `ESPN_SEASON=2026`, `ESPN_SPORT=ffl`, `ESPN_S2` and `ESPN_SWID`. Set `MCP_BEARER_TOKEN` to a 32+ character random secret.
+Set `ESPN_LEAGUE_ID=316142185`, `ESPN_TEAM_ID=6`, `ESPN_SEASON=2026`, `ESPN_SPORT=ffl`, `ESPN_S2` and `ESPN_SWID`. Set `MCP_BEARER_TOKEN` to a 32+ character random secret.
 
 ## Scheduling
 
