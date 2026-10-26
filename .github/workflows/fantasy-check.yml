@@ -25,7 +25,7 @@ jobs:
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           ESPN_SWID: ${{ secrets.ESPN_SWID }}
-          ESPN_LEAGUE_ID: "1318109236"
+          ESPN_LEAGUE_ID: "316142185"
           ESPN_TEAM_ID: "6"
           ESPN_SEASON: "2026"
           ESPN_SPORT: ffl
